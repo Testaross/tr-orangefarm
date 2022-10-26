@@ -22,28 +22,12 @@ Created By
 # Support Discord
 https://discord.gg/vTCUWCnQSD
 
-# Dependencies (ESX):
-- [CircleMinigame](https://github.com/trclassic92/CircleMinigame) - Converted from qbcore
+# Dependencies :
+
 - [ox_inventory](https://github.com/overextended/ox_inventory)
 - [ox_target](https://github.com/overextended/ox_target)
 - [ox_lib](https://github.com/overextended/ox_lib)
-- [ESX_Legacy](https://github.com/esx-framework/esx-legacy)
 
-# Dependencies (QB-Remastered):
-- [CircleMinigame](https://github.com/trclassic92/CircleMinigame)
-- [qb-inventory](https://github.com/QBCore-Remastered/qb-inventory)
-- [ox_target](https://github.com/overextended/ox_target) (Config Option)
-- [qb-target](https://github.com/qbcore-framework/qb-target) (Config Option)
-- [ox_lib](https://github.com/overextended/ox_lib)
-- [qb-core remastered](https://github.com/qbcore-framework/qb-core)
-
-# Dependencies (QB):
-- [CircleMinigame](https://github.com/trclassic92/CircleMinigame)
-- [qb-inventory](https://github.com/qbcore-framework/qb-inventory)
-- [ox_target](https://github.com/overextended/ox_target) (Config Option)
-- [qb-target](https://github.com/qbcore-framework/qb-target) (Config Option)
-- [ox_lib](https://github.com/overextended/ox_lib)
-- [qb-core](https://github.com/qbcore-framework/qb-core)
 
 ## Preview's
 - [ShowCase Video](https://youtu.be/KFj_WiAhp0s)
@@ -55,7 +39,7 @@ https://discord.gg/vTCUWCnQSD
 ![Preview Screenshot](https://i.imgur.com/6kPzfKv.jpeg)
 
 
-# Install ESX
+# Install ox_inventory
 #### Items
 
 ox inventory/data/item.lua
@@ -91,22 +75,3 @@ Step 1.
 #### Images
 
 Step 2. Move the images from the tr-orangefarming/Images to \[ox]\ox_inventory\web\images
-
-# Install QBCore
-#### Items
-
-qb-core/shared/item.lua
-
-Step 1.
-```
---ProjextX Orange Farm
-	['orange'] 						 = {['name'] = 'orange', 						['label'] = 'Fresh Orange', 				['weight'] = 25, 		['type'] = 'item', 		['image'] = 'orange.png', 		['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A fresh orange'},
-	['orange_juice'] 			 	 = {['name'] = 'orange_juice', 					['label'] = 'Fresh Orange Juice', 			['weight'] = 75, 		['type'] = 'item', 		['image'] = 'orangejuice.png', 		['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A fresh bottle of orange juice'},
-```
-#### Images
-
-Step 2. Move the images from the tr-orangefarming/images to [qb]\qb-inventory\html\images
-
-#### FXManifest
-
-Step 3. Remove `'@es_extended/imports.lua'` from the Fxmanifest.lua
